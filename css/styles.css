@@ -60,7 +60,7 @@ a {
 .main-header {
     position: relative;
     /* Usamos tu imagen de fondo */
-    background-image: url('../img/altar.webp');
+    background-image: url('/img/altar.webp');
     background-size: cover;
     background-position: center bottom;
     /* Prioridad a la parte de abajo de la imagen */
