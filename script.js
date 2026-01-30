@@ -1,7 +1,7 @@
 // Configuración de WhatsApp Centralizada
 function getWhatsAppLink() {
     const phoneNumber = "+50239512701";
-    const message = "Hola Maestra Sol, quiero apartar mi cupo.";
+    const message = "Hola Maestra Sol, quiero una consulta.";
     const baseUrl = "https://wa.me";
     return `${baseUrl}/${phoneNumber}?text=${encodeURIComponent(message)}`;
 }
