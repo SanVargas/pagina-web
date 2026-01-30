@@ -11,18 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll('.whatsapp-link').forEach(link => {
         link.href = wpUrl;
         link.classList.add('whatsapp-pulse');
-        if (link.querySelector('i')) {
-            // conserva el icono
-            link.innerHTML = '<i class="fab fa-whatsapp"></i> Apartar mi Cupo Ya';
-        } else if (link.id === 'wp-flotante') {
-            link.title = 'Apartar mi Cupo Ya';
-            link.setAttribute('aria-label', 'Apartar mi Cupo Ya');
-        } else {
-            link.textContent = 'Apartar mi Cupo Ya';
-        }
     });
-
-
 
     // Lógica del Menú Móvil (Nueva)
     const toggleBtn = document.querySelector('.mobile-toggle');
